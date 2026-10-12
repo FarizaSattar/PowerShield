@@ -82,4 +82,4 @@ Python · Flask · React · TypeScript · MQTT · Zeek · Suricata · PostgreSQL
 
 ---
 
-*Built by [Fariza Sattar](https://github.com/FarizaSattar)
+*Built by [Fariza Sattar](https://github.com/FarizaSattar)*
