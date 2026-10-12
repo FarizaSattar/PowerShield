@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover" />
+    
+    <!-- Theme & Branding Meta -->
+    <meta name="theme-color" content="#030a16" />
+    <meta name="color-scheme" content="dark" />
+    <meta name="application-name" content="PowerShield" />
+    <meta name="description" content="PowerShield • AI-powered OT / ICS Cybersecurity Defense & Smart Grid Telemetry Monitoring Platform for critical infrastructure protection." />
+    <meta name="keywords" content="Smart Grid, ICS Security, OT Cybersecurity, SCADA Monitoring, False Data Injection, Anomaly Detection, Power Systems" />
+    <meta name="author" content="Fariza Sattar" />
+
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="PowerShield — OT / ICS Cyber Defense Grid" />
+    <meta property="og:description" content="Real-time AI-driven monitoring and intrusion detection platform for smart grid substations and industrial control systems." />
+    <meta property="og:site_name" content="PowerShield SOC" />
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="PowerShield — OT / ICS Cyber Defense Grid" />
+    <meta name="twitter:description" content="Real-time AI-driven monitoring and intrusion detection platform for smart grid substations." />
+
+    <!-- Performance & Font Preconnections -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link 
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" 
+      rel="stylesheet" 
+    />
+
+    <!-- Favicon & Touch Icons -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%252351caff'><path d='M13 2L3 14h9l-1 8 10-12h-9l1-8z'/></svg>" />
+    <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%252351caff'><path d='M13 2L3 14h9l-1 8 10-12h-9l1-8z'/></svg>" />
+
+    <title>PowerShield — OT / ICS Cyber Defense Grid</title>
+
+    <!-- Global Responsive Baseline & Anti-Flash Bootloader Styles -->
+    <style>
+      *, *::before, *::after {
+        box-sizing: border-box;
+      }
+
+      html {
+        width: 100%;
+        height: 100%;
+        -webkit-text-size-adjust: 100%;
+        text-size-adjust: 100%;
+      }
+
+      body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        min-height: 100vh;
+        background-color: #030a16;
+        color: #edf6ff;
+        font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        overflow-x: hidden;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+
+      /* Responsive Loading State to prevent white flash on mobile/desktop boot */
+      #root:empty::before {
+        content: "Initializing PowerShield Grid Defense...";
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100vw;
+        height: 100vh;
+        padding: 1rem;
+        color: #51caff;
+        font-family: 'JetBrains Mono', monospace;
+        font-size: clamp(0.75rem, 2.5vw, 0.95rem);
+        letter-spacing: 0.05em;
+        background: radial-gradient(circle at 50% 50%, rgba(30, 113, 225, 0.15), transparent 70%), #030a16;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="root"></div>
+
+    <!-- Main Vite React Entry Point -->
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
